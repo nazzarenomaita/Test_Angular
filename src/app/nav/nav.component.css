@@ -1,0 +1,40 @@
+/* Stili di base per la navbar */
+.navbar-inverse {
+    background-color: #2c3e50; /* Colore di sfondo della navbar */
+    border-color: #1a242f; /* Colore del bordo della navbar */
+  }
+  
+  .navbar-inverse .navbar-brand {
+    color: #ecf0f1; /* Colore del testo del brand */
+  }
+  
+  .navbar-inverse .navbar-brand:hover,
+  .navbar-inverse .navbar-brand:focus {
+    color: #d1d1d1; /* Colore del testo del brand al passaggio del mouse */
+  }
+  
+  .navbar-inverse .navbar-nav > li > a {
+    color: #ecf0f1; /* Colore del testo dei link della navbar */
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    color: #d1d1d1; /* Colore del testo dei link della navbar al passaggio del mouse */
+  }
+  
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ffffff; /* Colore del testo del link attivo */
+    background-color: #1a242f; /* Colore di sfondo del link attivo */
+  }
+  
+  /* Stili per migliorare la disposizione della navbar */
+  .navbar-header {
+    padding: 10px;
+  }
+  
+  .navbar-nav > li > a {
+    padding: 15px 20px;
+  }
+  
